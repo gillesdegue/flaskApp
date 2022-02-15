@@ -12,8 +12,8 @@ RUN pip install -r requirements.txt
 
 
 # copy python file
-#WORKDIR /app
 COPY app.py /app
+
 # copy html file
 COPY templates /app/templates
 
