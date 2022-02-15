@@ -16,7 +16,7 @@ docker run --name flaskapp -p 5000:5000 flaskapp
 puis se rendre sur l'adresse localhost:5000 pour visualiser le resultat
 
 
-## deuxieme manière:
+## deuxième manière:
 
 éffectuer un pull depuis github grace a la commande:
 
