@@ -7,11 +7,11 @@ pour lancer l'application, il y a deux manières:
 
 La premiere maniere est de récupérer l'image depuis dockerHub grace à la commande:
 
-docker push gillesdegue/flaskapp:tagname
+docker pull gillesdegue/flaskapp:v0
 
-puis lancer le container avec la commande 
+puis lancer le container avec la commande
 
-docker run --name flaskapp -p 5000:5000 flaskapp
+docker run --name flaskapp -p 5000:5000 gillesdegue/flaskapp:v0
 
 puis se rendre sur l'adresse localhost:5000 pour visualiser le resultat
 
